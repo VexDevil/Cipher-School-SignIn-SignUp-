@@ -1,0 +1,67 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+.container
+{
+    padding: 30px;
+    margin: 110px;
+    /* height: 500px; */
+    align-items: center;
+    text-align: center;
+    background-color: #36c5bc;
+   
+}
+input[type=text],
+input[type=password]{
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.SignInbtn
+{
+    font-size: 20px;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+.SignUpbtn
+{
+    font-size: 20px;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+button{
+    size: 30px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.linking
+{
+    font-size: 20px;
+    color: black(149, 144, 144);
+}
+a
+{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+form
+{
+    float: inline-start;
+}
+
+h1{
+    color: rgb(26, 29, 32);
+}
