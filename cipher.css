@@ -5,9 +5,11 @@
 }
 
 .container
-{
+{   height: 600;
+    width: 500;
     padding: 30px;
     margin: 110px;
+    transform: translate(70%,70%);
     /* height: 500px; */
     align-items: center;
     text-align: center;
@@ -17,7 +19,7 @@
 input[type=text],
 input[type=password]{
     font-size: 20px;
-    width: 50%;
+    width: 70%;
     padding: 15px;
     margin: 10px;
     display: inline-block;
@@ -28,14 +30,14 @@ input[type=password]{
 .SignInbtn
 {
     font-size: 20px;
-    width: 50%;
+    width: 70%;
     background-color: black;
     color: white;
 }
 .SignUpbtn
 {
     font-size: 20px;
-    width: 50%;
+    width: 70%;
     background-color: black;
     color: white;
 }
